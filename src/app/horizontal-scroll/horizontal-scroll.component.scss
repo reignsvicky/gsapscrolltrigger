@@ -1,0 +1,52 @@
+.title {
+    color: orange;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 3rem;
+  }
+  
+  .wrapper {
+    background-color: black;
+    height: 500vh;
+    width: 100vw;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    transform: rotate(-10deg);
+    gap: 4rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 15rem;
+    border-radius: 1.2rem;
+    flex-shrink: 0;
+    padding: 1.5rem;
+    gap: 1rem;
+    background-color: orange;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    transform: rotate(-10deg);
+    gap: 4rem;
+    overflow: hidden;
+  }
+  
+  .letters {
+    color: white;
+    font-size: 15rem;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+  
